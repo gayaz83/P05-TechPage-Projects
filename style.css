@@ -100,4 +100,9 @@ footer i:hover{
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    transition: color 1s;
+    font-size: 1.5rem;
+}
+.btn-up:hover{
+    color: black;
 }
