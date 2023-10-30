@@ -79,9 +79,25 @@ footer i{
     color: white;
     font-size: 2rem;
     margin-right: 0.8rem;
-    transition: color 1s;
+    transition: all 1s;
+    text-decoration: none;
 }
 footer i:hover{
     color: var(--red);
-    
+    transform: scale(1.5);
+}
+
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--red);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
