@@ -75,3 +75,13 @@ section#courses .nav.pills{
 /*! -------------- 6- CONTACT SECTION ------------ */
 
 /*! -------------- 7- FOOTER --------------------- */
+footer i{
+    color: white;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    transition: color 1s;
+}
+footer i:hover{
+    color: var(--red);
+    
+}
